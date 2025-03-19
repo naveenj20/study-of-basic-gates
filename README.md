@@ -1,4 +1,9 @@
+# DATE: 12/03/2025
+
 ### study-of-basic-gates
+
+# NAME: NAVEEN JAISANKER
+# REG. NO.: 212224110039
 
 **AIM:** 
 
@@ -64,16 +69,66 @@ Y= A⊕B
 
 **PROGRAM**
 
-Program for logic gates and verify its truth table in quartus using Verilog programming
+'''
+module LOGIC_GATE(a, b, c1, c2, c3, c4, c5,c6 ,c7);
+input a, b;
+output c1, c2, c3, c4, c5, c6, c7;
+assign c1 = ~a;
+assign c2 = a & b;
+assign c3 = a | b;
+assign c4 = ~(a & b);
+assign c5 = ~(a | b);
+assign c6 = a ^ b;
+assign c7 = ~(a ^ b);
+endmodule
+'''
 
- Developed by: RegisterNumber: 
+ Developed by: Naveen Jaisanker RegisterNumber: 212224110039 
  
 **Logic symbol & Truthtable**
 
+**AND GATE**
+
+![Screenshot 2025-03-19 091858](https://github.com/user-attachments/assets/b8c5f53d-dd3b-49e8-9584-622ec38d62b7)
+
+**NAND GATE**
+
+![Screenshot 2025-03-19 091906](https://github.com/user-attachments/assets/27d15015-29a4-43f8-8aab-e45c4918f77b)
+
+**NOT GATE**
+
+![Screenshot 2025-03-19 091958](https://github.com/user-attachments/assets/28792916-440b-49e1-9ab8-ac8c4ec5b07d)
+
+**OR GATE**
+
+![Screenshot 2025-03-19 092027](https://github.com/user-attachments/assets/1126fe5e-38ed-4489-8257-912114644a5e)
+
+**NOR GATE**
+
+![Screenshot 2025-03-19 092049](https://github.com/user-attachments/assets/addcb1da-abf8-44c6-8ac0-9a1164a3b870)
+
+**XOR GATE**
+
+![Screenshot 2025-03-19 092057](https://github.com/user-attachments/assets/8d494d42-590e-4c00-b806-e64f19b81252)
+
+**XNOR GATE**
+
+![Screenshot 2025-03-19 092103](https://github.com/user-attachments/assets/68729cfe-5205-4459-9179-86bac82b1220)
+
+
+
 **RTL realization Output:** 
+
+![Screenshot 2025-03-11 111043](https://github.com/user-attachments/assets/6fcb555a-97c3-4c9e-bb1a-58a3db662920)
+
 
 **RTL**
 
+![Screenshot 2025-03-11 113039](https://github.com/user-attachments/assets/709b2fa5-72cc-419b-816a-d3579d3bc95f)
+
+
 **Result:**
+
+Thus, the verification and truth tables of basic gates are verified.
 
 
